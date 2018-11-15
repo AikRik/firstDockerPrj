@@ -6,7 +6,6 @@ $product = new Product;
 $products = $product->get_products();
 execute($products);
 
-
 function execute($data)
 {
 	if ($data) {
