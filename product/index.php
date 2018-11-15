@@ -1,6 +1,6 @@
 <?php
 header("Content-Type:application/json");
-require_once('data.php');
+require_once('product.php');
 
 $product = new Product;
 $products = $product->get_products();
